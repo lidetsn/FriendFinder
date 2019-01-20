@@ -1,0 +1,106 @@
+
+html, body { scroll-behavior:smooth; }
+
+body,.modal-header,.modal-footer {
+    background-size: cover;
+     background: url(../images/background1.jpg) no-repeat center center fixed; 
+} 
+#mbody{
+    background-size: cover;
+     background: url(../images/firework.gif) ; 
+}
+
+.instruction {
+     line-height: 15%; 
+    /* font-family: 'Times New Roman', Times, serif; */
+    color: white;
+    /* text-align: center; */
+    font-size: 20px;
+}
+#name {
+    margin-top: 8%;
+    color: white;
+    text-align: center;
+    font-size: 80px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+footer{
+    
+    bottom: 0;
+}
+h4,h2{
+    color: white;
+}
+
+.divan {
+    width: 500px;
+    height: 20px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 6s infinite;
+  }
+  
+ #div1 {animation-timing-function:ease-in-out;}
+#div2 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: 32%;}
+    to {left: 38%;}
+  }
+
+
+  @media screen and (max-width:768px){
+
+   .divan {
+       width: 500px;
+       height: 20px;
+       position: relative;
+       -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+       animation: mymove 6s infinite;
+     }
+     
+    #div1 {animation-timing-function:ease-in-out;}
+   #div2 {animation-timing-function: ease-in-out;}
+   
+   @keyframes mymove {
+       from {left: 13%;}
+       to {left: 18%;}
+     }
+  }
+
+  @media screen and (max-width:640px){/*any thing here works for <640*/
+    .instruction {
+        line-height: 15%; 
+       /* font-family: 'Times New Roman', Times, serif; */
+       color: white;
+       /* text-align: center; */
+       font-size: 12px;
+   }
+
+   #name {
+    margin-top: 10%;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+
+.divan {
+    width: 300px;
+    height: 20px;
+    position: relative;
+    -webkit-animation: mymove 5s infinite; /* Safari 4.0 - 8.0 */
+    animation: mymove 6s infinite;
+  }
+  
+ #div1 {animation-timing-function:ease-in-out;}
+#div2 {animation-timing-function: ease-in-out;}
+
+@keyframes mymove {
+    from {left: 14%;}
+    to {left: 16%;}
+  }
+
+
+    }
