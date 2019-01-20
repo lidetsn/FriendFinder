@@ -19,6 +19,7 @@ technology used:
 
 
   Links
-   Link to horuku
-   Link to video
+   Link to horuku:  https://enigmatic-coast-79596.herokuapp.com/
+   Link to video  https://drive.google.com/file/d/1KfEjhcqzNroDdMtGVHRL3D9HosdzYdP5/view
    
+Author Lidetu S Neshnega
