@@ -11,22 +11,22 @@ FriendFinder is a compatibility-based "FriendFinder" application -- basically a 
 
 Technology used:
 
-  Express 
+ * Express 
   
-  java script/jquery 
+ * java script/jquery 
   
-  html
+ * html
   
-  bootstrap 
+ * bootstrap 
   
-  font-awesome
+ * font-awesome
   
-  css
+ * css
 
 
   Links
   
-   Link to horuku:   https://enigmatic-coast-79596.herokuapp.com/
+   Link to heroku:   https://enigmatic-coast-79596.herokuapp.com/
    
    Link to video:  https://drive.google.com/file/d/1KfEjhcqzNroDdMtGVHRL3D9HosdzYdP5/view
    
